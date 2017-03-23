@@ -3,6 +3,7 @@ package com.java;
 public class App{
 
   private double balance;
+  private double unusedvariable;
 
   public App(double balance) {
     this.balance = balance;
