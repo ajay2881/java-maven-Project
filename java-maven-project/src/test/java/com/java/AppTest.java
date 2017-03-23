@@ -10,7 +10,17 @@ import org.junit.Test;
 public class AppTest 
     
 {
-    
+   
+@Test
+public void testinsufficientbalance()
+{
+
+
+App obj=new App(10);
+double amount=obj.debit(5);
+Assert.assertEquals(5.0,amount);
+
+} 
 }
 
 
